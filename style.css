@@ -345,11 +345,9 @@ color: #555555;
 	text-align: center;
 	height: 400px;
 
-	position: absolute;
-width:100%;
 }
 .localwrapper3{
-	padding-top: 400px;
+	padding-top:60px;
 	background: #c0301c;
 	height: 310px;
 	width: 100%;
