@@ -120,22 +120,58 @@ color: #ffffff;
 border: 2px solid #ffffff;
 padding: 17px 33px;
 }
-.conteiner2 .cards div{
+.container2 .cards div{
 	display: inline-block;
 	width: 30%;
-	margin: 75px 1.4% 100px 1.4%;
+	margin: 75px 1.3% 100px 1.3%;
 	text-align: center;
 }
-.conteiner2 .cards div svg{
-	font-size: 86px;
-	width:86px ;
-	height: 86px;
+.container2 .cards div svg{
+	
 	color: #c0301c;
-	border: 2px solid#dddddd;
+	border: 2px #dddddd solid;
 	border-radius: 50%;
-	margin: 10%;
+	margin: 75;
 }
-
+.svg1 svg{
+	font-size: 86px;
+}
+.svg2 svg{
+	font-size: 42px;
+	padding: 22px 18px;
+}
+.svg3 svg{
+	font-size: 50px;
+	padding: 18px;
+}
+.container2 h2{
+	padding:100px 0 30px 0;
+	text-align: center;
+	color: #555555;
+	font-size: 20px;
+}
+.container2 h3{
+	padding:30px 0 30px 0;
+	text-align: center;
+	color: #555555;
+	font-size: 16px;
+}
+.container2 i{
+	display: block;
+	width: 50px;
+	height: 2px;
+	margin: 0 auto;
+	background-color: #555555;
+	margin-bottom: 30px;
+}
+.container2 p{
+	text-align: center;
+	font-size: 18px;
+	margin: 0 auto;
+	font-family: 'Roboto Slab Regular';
+	line-height: 18pt;
+	color: #555555;
+}
 .conteiner4{
 	text-align: center;
 }
@@ -165,25 +201,7 @@ padding: 17px 33px;
 	margin-top: 86px;
 	
 }
- .container3 .name{
-font-size: 20 px;
-text-align: center;
-color: #555555;
-}
-.container3 .line{
-font-size: 25px;
-padding-top: 15px;
-padding-bottom: 35px;
-text-align: center;
-color: #555555;
-}
-.container3 .descr3{
-font-family: Roboto Slab; /*vibrat' myagkost'*/
-font-size: 15x;
-text-align: center;
-color: #555555;
-
-}
+ 
 .conteiner4 ul li:hover{
 	color: #c0301c;
 	cursor: pointer;
@@ -268,60 +286,51 @@ padding-top: 100px;
 	line-height: 2;
 }
 .container6{
-
-	height: 450px;
+	background-image: url(./images/bgim.png);
 	width: 100%;
+	height: 370px;
+	margin-top: 130px;
 }
-.container6 .localwrapper{
+.container6 .redblock{
+	position: relative;
+	top: 40px;
+	font-family: 'RobotoSlab Regular';
+	font-size: 30px;
+	text-align: center;
+	line-height: 30pt;
+	color: white;
+}
+.container6 .background{
+	background-color: rgb(255, 0, 0, 0.3);
 	height: 370px;
 	width: 100%;
-	margin-top: 130px;
-	margin-bottom: 100px;
-    position: relative;
-	display: inline-block;
-	overflow: hidden;
 }
-.container6 .localwrapper:hover:after{
-	content:"";
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	box-shadow: 0 0 0 10000px rgba(202, 16, 16, 0.658);
-  }
-  .container6 .text2{
-font-size: 23px;
-font-family: Roboto Slab; 
-position: absolute;
-text-align: center;
-margin-left: 35%;
-margin-top: -360px;
-color: #ffffff;
-line-height:1.5 ;
-  }
-  .container6 .btn2 {
-margin-top: -220px;
-position: absolute;
-margin-left: 40%;
+.container6 .button{
+	position: relative;
+	top:220px;
+	left: 38%;
+	font-family: 'RobotoSlab Regular';
+	font-size: 18pt;
+	text-align: center;
+	color: white;
+	border: white 2px solid;
+	width: fit-content;
+	padding: 20px;
 }
-.container6 .btn2 .designbt {
-	text-decoration: none;	
-	font-size: 16px;
-	color: #ffffff;
-	border: 2px solid #ffffff;
-	padding: 17px 33px;
+.container6 .button :hover{
+	cursor: pointer;
 }
 .container7 .allimg2 {
 	display: inline-block;
 	width: 9%;
 	margin-left: 10px;
+	padding-left: 10px;
 	padding-top: 100px;
 }
 	
 
 #spes0{
 	margin-bottom: -15px;
-	margin-right: 15px;
 }
 .contant4{
 margin-top: 77px;
@@ -377,6 +386,16 @@ color: #555555;
 	.center{
 		width:90%;
 	}
+	.container7 .allimg2 {
+		display: inline-block;
+		width: 30%;
+		margin-left: 3px;
+	}
+	.localwrapper2{
+		
+		height: 700px;
+	
+	}
 }
 @media(max-width:992px){
 	.container1 .menu {
@@ -385,6 +404,22 @@ color: #555555;
 	.container4 .galery div{
 		margin: 10px 1%;
 	}
+	.container5 .bg {
+	width: 100%;
+}	
+	.container5 .bg .name1{
+		font-size: 20 px;
+	padding-top: 100px;
+	}
+	.container5 .bg .name1{
+		font-size: 17 px;
+	padding-top: 20px;
+	}
+	.container5 .bg .descr5{
+		font-family: Roboto Slab; 
+		font-size: 13x;}
+		
+		
 }
 @media(max-width:768px){
 	.container2 .cards div{
@@ -397,6 +432,17 @@ color: #555555;
 	.conteiner4 .galery div{
 		width: 45%;
 	}
+	.container5 .bg .contant {
+		column-count: 1;
+		padding-top: 10px;
+		text-align: justify;
+		color: #555555;
+		font-size: 12px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-family: Roboto Slab; 
+	}
+
 }
 @media (max-width: 550px){
 	.conteiner .cards div{
@@ -405,6 +451,15 @@ color: #555555;
 	.conteiner4 .galery div{
 		width: 70%;
 	}
+	.icon1 {
+		margin-top: 5px;
+		font-size: 20px;
+		width: 20px ;
+		height: 20px;
+		
+		padding: 3px 3px;	
+	}
+	
 }
 
 @media (max-width: 425px){
@@ -412,8 +467,28 @@ color: #555555;
 	.conteiner4 .galery div {
 		width: 90%;
 	}
+	
 }
-@media (max-height: 800px){
+@media (max-width: 600px){ 
+	.container6 .redblock{
+		top: 20px;
+		font-size: 26px;
+		line-height: 20pt;
+	}
+	.container6 .button{
+	
+		top:200px;
+		left: 34%;
+		font-family: 'RobotoSlab Regular';
+		font-size: 15pt;
+		text-align: center;
+		color: white;
+		border: white 2px solid;
+		width: fit-content;
+		padding: 20px;
+	}
+}
+@media (max-height: 800px){ 
 	h1{
 		margin-top: 27vh;
 	}
@@ -422,4 +497,31 @@ color: #555555;
 	}
 	.container1 .bt{
 		margin-top: 8vh;}
+		
+	}
+
+	
+	@media (max-width: 850px){
+		.container1 .descr {
+			font-size: 26px;
+			margin-top: 50px;
+			}
+			.container1 .bt{
+		
+			margin-top: 68px;
+	}
+}
+@media (max-width: 400px){
+	.container7 .allimg2 {
+		margin-left: 10px;
+		padding-left: 15px;
+		padding-top: 100px;
+	}
+	.container6 .button{
+	
+		top:200px;
+		left: 23%;
+	
+	}
+
 }
